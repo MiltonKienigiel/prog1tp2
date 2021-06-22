@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+
+    <script type="text/javascript" src="./JS/index.js"></script>
+  
+    <title>Kolav</title>
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <div class="navbar">
+      <img class="logo" src="img/KOLAV-LOGO.png" alt="">
+
+      <div class="menubars" id="menubar"></div>
+      <ul class="menu" id="mostrarMenu">
+        <li><a href="./index.html">HOME</a></li>
+        <li><a href="./detail-artist.html">ARTISTS</a></li>
+        <li><a href="./genres.html">GENRES</a></li>
+        <li><a href="./detail-album.html">ALBUMS</a></li>
+      </ul>
+
+      <div class="Busqueda">
+        <form class="Busqueda" action="search-results.html" method=get>
+          <button class="buscadorBoton"><i class="fas fa-search"></i></button>
+          <input class="buscadorFondo" type="text" placeholder="Busca tu Artista ">
+        </form>
+      </div>
+      <div class="menucono"></div>
+      <i id="menucono" class="fas fa-bars"></i>
+    </div>
+  </header>
+
+
+  <main>
+    <section >
+      <!-- Main -->
+      <h1 class="Subtitle">
+        <i class="far fa-play-circle"></i> Top tracks
+      </h1>
+      <div id ="topTracks">
+      
+       <!-- Top Tracks are loaded form api -->
+
+      
+      </div>
+     
+          <h3 class="Subtitle">
+            <i class="far fa-star"></i> Top Artist
+          </h3>
+     
+          <div id ="topArtists">
+      
+            <!-- Top Artists are loaded form api -->
+     
+           
+           </div>
+
+         
+   
+
+        <article class="Maintcontant">
+          <h1 class="Subtitle">
+            <i class="fas fa-compact-disc"></i> Top Albums
+          </h1>
+
+          <div id ="topAlbums">
+      
+            <!-- Top Albums are loaded form api -->
+     
+           
+           </div>
+
+
+
+
+        </article>
+
+
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="socialNet">
+      <i class="fab fa-facebook"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-twitter"></i>
+      <i class="fab fa-whatsapp"></i>
+    </div>
+    <div class="members">
+      <ul>
+        <li><i class="fas fa-cube"></i>Tomas Falaq</li>
+        <li><i class="fas fa-cube"></i>Serena Saguier</li>
+        <li><i class="fas fa-cube"></i>Macs Alfonso</li>
+
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
