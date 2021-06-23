@@ -38,10 +38,23 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
     <button id="addplaylist"> Add to Playlist</button>
     <button id="addedplaylist"> Added to Playlist</button>
     <h4> <a href="playlist.html"  class="formap"> Mi Playlist</a> </h4>
-    <audio id=audios src="${track.preview}" controls="audios/muchacha-almendra.mp3"> </audio>
-  </div>
+    <button class="play-cancion">Play</button> 
+    </div>
 </div>
 </article>`
+let reproductor = document.querySelector(".reproductor")
+let botonPlay = document.querySelector(".play-cancion");
+
+botonPlay.addEventListener("click", function(){
+  
+  reproductor.style.display="block";
+  reproductor.innerHTML=`<iframe scrolling="no" frameborder="0" allowTransparency="true" src="https://www.deezer.com/plugins/player?format=classic&autoplay=false&playlist=true&width=100%&height=2&color=007FEB&layout=dark&size=medium&type=tracks&id=${track.id}&app_id=1" width="100%" height="62px"></iframe>`
+
+
+})
+
+  
+
     const add = document.querySelector('#addplaylist')
     const added = document.querySelector('#addedplaylist')
     if (window.localStorage.getItem('list')) {
