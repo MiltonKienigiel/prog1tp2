@@ -117,7 +117,7 @@ body {
     margin:auto;
     width: 80%;
     margin-bottom: 10px;
-
+    padding: 25px;
 }
 
 .card p, h1 {
@@ -359,4 +359,19 @@ font-family: 'Roboto', sans-serif;
 
     }
    
+}
+
+#topAlbums2{
+    display: grid;grid-template-columns: 1fr 1fr;
+    color: white;
+}
+
+#topAlbums2 img{
+    width: 200px;
+    height: 200px;
+}
+#topAlbums2 div{
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
 }
