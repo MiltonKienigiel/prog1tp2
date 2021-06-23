@@ -82,6 +82,8 @@ body {
     position: relative;
     display: flex;
     align-items: center;
+    padding: 40px;
+    margin: 30px;
 }
 
 .card p {
@@ -197,17 +199,18 @@ body {
         
     }
    
-    .avatar{ 
-     
-    }
+    
 
-    .card{
-        width: 300px;
-        height: 200px;
-    }
+   
     .footer{
         margin-top: 90vh;
     }
 
 
+}
+
+.MainContentGenre{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
 }
