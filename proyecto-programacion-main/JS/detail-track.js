@@ -76,7 +76,7 @@ botonPlay.addEventListener("click", function(){
         add.style.display = 'none'
         added.style.display = 'block'
       } else {
-        let tracks = []
+        let tracks = [track]
         window.localStorage.setItem('list', JSON.stringify(tracks))
         add.style.display = 'none'
         added.style.display = 'block'
