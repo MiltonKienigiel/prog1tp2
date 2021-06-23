@@ -98,13 +98,16 @@ body {
     justify-content: space-around;
 }
 
-.MainContent {
+/* .MainContent {
 
     display: grid;
     gap: 2em;
     grid-template-columns: repeat(4, 1fr);
     height: 80vh;
     margin: 15px;
+} */
+.MainContent .card{
+    padding: 35px;
 }
 
 .card {
@@ -239,4 +242,16 @@ body {
     }
 
 
+}
+
+.tracks {
+    margin-top: 40px;
+    text-align: center;
+}
+.tracks div{
+    padding: 20px;
+
+}
+.tracks h1{
+    color: yellow;
 }
