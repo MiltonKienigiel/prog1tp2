@@ -63,7 +63,7 @@ fetch("https://cors-anywhere.herokuapp.com/https://api.deezer.com/track/" + trac
         add.style.display = 'none'
         added.style.display = 'block'
       } else {
-        let tracks = []
+        let tracks = [track]
         window.localStorage.setItem('list', JSON.stringify(tracks))
         add.style.display = 'none'
         added.style.display = 'block'
